@@ -2,7 +2,7 @@ import os
 import shutil
 
 source_dir = 'test_latest/images' 
-target_dir = 'fake_B'
+target_dir = 'fake_B_only'
 os.makedirs(target_dir, exist_ok=True)
 
 for file in os.listdir(source_dir):

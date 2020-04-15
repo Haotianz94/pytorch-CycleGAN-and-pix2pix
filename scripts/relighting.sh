@@ -1,0 +1,6 @@
+python3 test.py --dataroot datasets/relighting/008-fg --name tennis_relighting_fg --model cycle_gan --no_dropout --no_flip --gpu_ids 0 --num_test 100000 --load_size 320 --crop_size 320 --batch_size 8 &
+python3 test.py --dataroot datasets/relighting/008-bg --name tennis_relighting_bg --model cycle_gan --no_dropout --no_flip --gpu_ids 1 --num_test 100000 --load_size 320 --crop_size 320 --batch_size 8 &
+python3 test.py --dataroot datasets/relighting/009-fg --name tennis_relighting_fg --model cycle_gan --no_dropout --no_flip --gpu_ids 2 --num_test 100000 --load_size 320 --crop_size 320 --batch_size 8 &
+python3 test.py --dataroot datasets/relighting/009-bg --name tennis_relighting_bg --model cycle_gan --no_dropout --no_flip --gpu_ids 3 --num_test 100000 --load_size 320 --crop_size 320 --batch_size 8 &
+python3 test.py --dataroot datasets/relighting/010-fg --name tennis_relighting_fg --model cycle_gan --no_dropout --no_flip --gpu_ids 4 --num_test 100000 --load_size 320 --crop_size 320 --batch_size 8 &
+python3 test.py --dataroot datasets/relighting/010-bg --name tennis_relighting_bg --model cycle_gan --no_dropout --no_flip --gpu_ids 5 --num_test 100000 --load_size 320 --crop_size 320 --batch_size 8 &
